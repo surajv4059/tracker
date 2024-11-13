@@ -1,0 +1,79 @@
+/* Container for the Generate Reports component */
+.generate-reports-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    box-sizing: border-box;
+  }
+  
+  /* Header styling */
+  .generate-reports-container h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #343a40;
+  }
+  
+  /* Form styling */
+  .generate-reports-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Label styling */
+  .generate-reports-container label {
+    font-size: 1rem;
+    color: #495057;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  /* Input styling */
+  .generate-reports-container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Button styling */
+  .generate-reports-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-reports-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Download link styling */
+  .generate-reports-container a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .generate-reports-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error message styling */
+  .generate-reports-container .error-message {
+    color: #dc3545;
+    font-size: 0.875rem;
+  }
+  

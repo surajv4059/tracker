@@ -1,0 +1,53 @@
+
+.home-container {
+  padding: 20px;
+  background: #f8f9fa; 
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 1000px; 
+  margin: 0 auto;
+  box-sizing: border-box; 
+}
+
+.welcome-header {
+  margin-bottom: 20px;
+  font-size: 1.75rem;
+  color: #343a40; 
+}
+
+.component-wrapper {
+  margin-bottom: 20px; 
+}
+
+.auth-button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.auth-button:hover {
+  background-color: #0056b3;
+}
+
+
+.admin-link {
+  position: fixed; 
+  top: 20px;
+  right: 20px;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+  background-color: rgba(0, 123, 255, 0.1); 
+  padding: 8px 12px; 
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.admin-link:hover {
+  background-color: #007bff; 
+  color: #fff; 
+}
